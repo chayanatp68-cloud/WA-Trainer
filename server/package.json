@@ -1,0 +1,22 @@
+{
+    "name": "wa-trainer",
+    "version": "1.0.0",
+    "description": "webapp about trainer business for subject sever side",
+    "license": "ISC",
+    "author": "chayanat prayoonyim",
+    "type": "commonjs",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "nodemon src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.2.1",
+        "sequelize": "^6.37.0",
+        "sqlite3": "^5.1.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.0"
+    }
+}
